@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="" prefHeight="790.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminController">
+   <children>
+      <AnchorPane layoutX="535.0" layoutY="6.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="802.0" prefWidth="743.0" styleClass="+" />
+      <Label contentDisplay="CENTER" layoutX="50.0" layoutY="131.0" text="Admin/Staff Login">
+         <font>
+            <Font name="Curlz MT" size="35.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="220.0" text=" Are you a student?">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="295.0" text="Email Address">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font></Label>
+      <TextField fx:id="tf_mail" layoutX="56.0" layoutY="348.0" prefHeight="43.0" prefWidth="268.0">
+         <font>
+            <Font name="Dubai Regular" size="16.0" />
+         </font></TextField>
+      <Label layoutX="53.0" layoutY="406.0" text="Passworrd">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="tf_pass" layoutX="62.0" layoutY="451.0" prefHeight="43.0" prefWidth="268.0" />
+      <Button fx:id="button_login" accessibleRole="HYPERLINK" blendMode="DARKEN" layoutX="130.0" layoutY="524.0" mnemonicParsing="false" text="Login In">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_log" layoutX="229.0" layoutY="216.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Click here" textFill="#14bbff">
+         <font>
+            <Font name="Curlz MT" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

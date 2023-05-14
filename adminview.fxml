@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminview">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="1152.0">
+         <children>
+            <Label layoutX="414.0" layoutY="102.0" text="Welcome Admin/Staff">
+               <font>
+                  <Font name="Curlz MT" size="30.0" />
+               </font></Label>
+            <Label layoutX="280.0" layoutY="194.0" text="Name">
+               <font>
+                  <Font name="Curlz MT" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="279.0" layoutY="261.0" text="Roll No">
+               <font>
+                  <Font name="Curlz MT" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="277.0" layoutY="337.0" text="Block">
+               <font>
+                  <Font name="Curlz MT" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="274.0" layoutY="409.0" text="Hall No">
+               <font>
+                  <Font name="Curlz MT" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_publish" layoutX="541.0" layoutY="477.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Publish">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Button>
+            <TextField fx:id="pg_name" layoutX="453.0" layoutY="194.0" prefHeight="37.0" prefWidth="210.0" promptText="Name">
+               <font>
+                  <Font name="Curlz MT" size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="pg_rollno" layoutX="449.0" layoutY="263.0" prefHeight="37.0" prefWidth="210.0" promptText="Roll No">
+               <font>
+                  <Font name="Curlz MT" size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="pg_block" layoutX="446.0" layoutY="334.0" prefHeight="37.0" prefWidth="210.0" promptText="Block">
+               <font>
+                  <Font name="Curlz MT" size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="pg_hallno" layoutX="447.0" layoutY="411.0" prefHeight="37.0" prefWidth="210.0" promptText="Hall No">
+               <font>
+                  <Font name="Curlz MT" size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

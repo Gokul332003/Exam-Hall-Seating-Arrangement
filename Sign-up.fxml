@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1530.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="0.0" />
+      <AnchorPane prefHeight="400.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="803.0" fitWidth="1589.0" layoutX="-1.0" layoutY="-9.0" pickOnBounds="true">
+               <image>
+                  <Image url="@BG.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="296.0" layoutY="240.0" text="Roll No">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_sign_up" layoutX="523.0" layoutY="587.0" mnemonicParsing="false" text="Sign Up" wrapText="true">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="292.0" layoutY="322.0" text="Password">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="472.0" layoutY="240.0" promptText="Roll No">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_password" layoutX="472.0" layoutY="321.0" promptText="Password">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="105.0" layoutY="684.0" text="Already a User?">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_login" layoutX="277.0" layoutY="681.0" mnemonicParsing="false" text="Login">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="label_email" layoutX="295.0" layoutY="485.0" prefHeight="35.0" prefWidth="87.0" text="Email ID">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_email" layoutX="472.0" layoutY="485.0" promptText="Email ID">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="342.0" layoutY="152.0" prefHeight="46.0" prefWidth="672.0" text="EXAM HALL SEATING ARRANGEMENT">
+               <font>
+                  <Font name="Curlz MT" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="1186.0" layoutX="96.0" layoutY="33.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Logo1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="292.0" layoutY="406.0" text="Confirm Password">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_conpassword" layoutX="466.0" layoutY="401.0" promptText="Confirm Password">
+               <font>
+                  <Font name="Curlz MT" size="18.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

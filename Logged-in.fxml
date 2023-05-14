@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="goku" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="824.0" prefWidth="1530.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoggedInController">
+   <children>
+      <ImageView fx:id="goku" fitHeight="800.0" fitWidth="1530.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@BG.PNG" />
+         </image>
+      </ImageView>
+      <Pane fx:id="goku" layoutX="-3.0" prefHeight="824.0" prefWidth="1736.0">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="871.0" layoutX="294.0" layoutY="22.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Logo1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_register" layoutX="510.0" layoutY="450.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="167.0" text="Register">
+               <font>
+                  <Font name="Curlz MT" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_view" layoutX="759.0" layoutY="454.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="167.0" text="VIEW SEATINGS">
+               <font>
+                  <Font name="Curlz MT" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="149.0" layoutY="672.0" text=" “Success is not final, failure is not fatal: it is the courage to continue that counts.”">
+               <font>
+                  <Font name="Curlz MT" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="548.0" layoutY="132.0" prefHeight="228.0" prefWidth="345.0" text="WELCOME CANDIES">
+               <font>
+                  <Font name="Curlz MT" size="40.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Button fx:id="button_logout" layoutX="1060.0" layoutY="148.0" mnemonicParsing="false" text="Logout">
+         <font>
+            <Font name="Curlz MT" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

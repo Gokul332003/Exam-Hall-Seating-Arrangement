@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="1530.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewController">
+   <children>
+      <Button fx:id="button_back" layoutX="14.0" layoutY="21.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="236.0" layoutY="152.0" text="Name">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font></Label>
+      <Label layoutX="228.0" layoutY="210.0" text="Roll No">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="274.0" text="Programme">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="349.0" text="Branch">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="413.0" text="Semester">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="480.0" text="Block Name">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="560.0" text="Hall No">
+         <font>
+            <Font name="Curlz MT" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="33.0" text="EXAM HALL SEATING ARRANGEMENT">
+         <font>
+            <Font name="Curlz MT" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pg_rollno" layoutX="374.0" layoutY="213.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="pg_programme" layoutX="373.0" layoutY="281.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="pg_branch" layoutX="379.0" layoutY="353.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="pg_sem" layoutX="383.0" layoutY="420.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="pg_block" layoutX="383.0" layoutY="484.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="pg_hallno" layoutX="383.0" layoutY="564.0" prefHeight="26.0" prefWidth="206.0" />
+      <ImageView fitHeight="360.0" fitWidth="366.0" layoutX="814.0" layoutY="154.0" pickOnBounds="true">
+         <image>
+            <Image url="@all-the-best-wishes-for-exam.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="pg_name" layoutX="371.0" layoutY="157.0" prefHeight="26.0" prefWidth="206.0" />
+   </children>
+</AnchorPane>
